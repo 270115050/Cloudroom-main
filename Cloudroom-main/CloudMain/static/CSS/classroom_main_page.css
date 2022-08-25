@@ -1,0 +1,48 @@
+.all-classroom-posts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.create_post_btn{
+    padding-top:60px;
+}
+
+.class-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cloudroom-container {
+    padding-top: 50px;
+    height: 100vh;
+}
+
+.post_content{
+    height: 500px;
+}
+
+@media (min-width: 1200px)
+{
+    .classroom-name {
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 770px)
+{
+    .class-post {
+        width: 40em;
+    }
+}
+.pic {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px 0px;
+}
